@@ -1,7 +1,7 @@
 {
   "name": "shipping-service-23",
   "version": "1.0.0",
-  "description": "Shipping Service Exercise for Cloud Native Bootcamp",
+  "description": "Shipping Service Exercise for Cloud Native Bootcamp at Barcelona",
   "main": "index.js",
   "scripts": {
     "test": "jest tests --env=node",
