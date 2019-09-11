@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: shipping-service-ingress-23
+  namespace: lab-cnb
+  labels:
+    app: shipping-service-23  
+spec:
+  rules:
+  - host: shipping-service-23.cnb-iks.eu-gb.containers.appdomain.cloud
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: shipping-service-svc-23
+          servicePort: app-port
