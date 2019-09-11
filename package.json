@@ -1,11 +1,15 @@
 {
-  "name": "shipping-service",
+  "name": "shipping-service-23",
   "version": "1.0.0",
   "description": "Shipping Service Exercise for Cloud Native Bootcamp",
   "main": "index.js",
   "scripts": {
     "test": "jest tests --env=node",
     "start": "node src/app.js"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "5.6.x"
   },
   "repository": {
     "type": "git",
