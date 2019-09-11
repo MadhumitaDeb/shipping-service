@@ -4,7 +4,8 @@
   "description": "Shipping Service Exercise for Cloud Native Bootcamp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest tests --env=node",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
